@@ -46,7 +46,7 @@ const logger = winston.createLogger({
         winston.format.timestamp(),
         winston.format.colorize(),
         winstonTimestampColorize({color: 'red'}),
-        winston.printf((info) => `${info.timestamp}${info.level}: ${info.message}`)),
+        winston.format.printf((info) => `${info.timestamp} ${info.level}: ${info.message}`)),
     level: 'debug',
     transports: [
         new winston.transports.Console({}),
