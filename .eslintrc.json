@@ -1,12 +1,16 @@
 {
-  "extends": "google",
+  "env": {
+    "es6": true,
+    "mocha": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends": ["google"],
   "rules": {
-    "no-var": "off",
-    "prefer-const": "off",
-    "eol-last": ["error", "always"],
-    "require-jsdoc": "off",
-    "guard-for-in": "off",
-    "prefer-rest-params": "off",
-    "indent": ["error", 2]
+    "indent": ["error", 4],
+    "max-len":["error", 120]
   }
 }
