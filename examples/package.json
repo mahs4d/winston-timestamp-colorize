@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "examples for winston-timestamp-colorize",
   "main": "example1.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "Mahdi Sadeghi <mail2mahsad@gmail.com> (https://mahsad.ir/)",
   "license": "MIT",
   "dependencies": {
-    "winston": "^3.2.1"
+    "winston": "^3.2.1",
+    "winston-timestamp-colorize": "^1.0.0"
   }
 }
