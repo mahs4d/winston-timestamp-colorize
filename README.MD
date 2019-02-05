@@ -8,6 +8,8 @@ this is a simple library for adding colorization to timestamps of winston.
 ### usage:
 just add winston-timestamp-colorize to your winston formats after winston.format.timestamp()
 ```javascript
+const winstonTimestampColorize = require('winston-timestamp-colorize');
+
 winston.createLogger({
     ...
     format: winston.format.combine(
@@ -32,7 +34,7 @@ you can pass an optional {color: '...' } parameter to winstonTimestampColorize t
 - gray
 - grey
 
-### example:
+### full example:
 ```javascript
 const winston = require('winston');
 const winstonTimestampColorize = require('winston-timestamp-colorize');
