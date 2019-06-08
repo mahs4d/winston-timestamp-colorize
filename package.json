@@ -1,6 +1,6 @@
 {
   "name": "winston-timestamp-colorize",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "simple format for winston to colorize timestamps",
   "main": "lib/index.js",
   "scripts": {
